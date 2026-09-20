@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<title>Modrift — Get Free Key</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a1822;--surface:#112432;--line:rgba(255,255,255,.12);--text:#eef4f8;--dim:#9bb2c1;--accent:#ffb454;--ok:#5fd6a4;--red:#ff7a7a;--display:Syne,system-ui,sans-serif;--glass:linear-gradient(160deg,rgba(255,255,255,.10),rgba(255,255,255,.035))}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{background:var(--bg)}
+body{min-height:100vh;color:var(--text);font-family:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(115deg,transparent 0 46%,rgba(255,180,84,.08) 46% 46.3%,transparent 46.3%)}
+.ambient{position:fixed;inset:0;z-index:-2;overflow:hidden;pointer-events:none}
+.ambient i{position:absolute;border-radius:50%;filter:blur(70px);animation:drift 16s ease-in-out infinite alternate}
+.o1{width:340px;height:340px;background:#17708c;opacity:.55;top:-100px;left:-110px}
+.o2{width:300px;height:300px;background:#ffb454;opacity:.24;bottom:6%;right:-120px;animation-delay:-6s}
+.o3{width:260px;height:260px;background:#1b4f86;opacity:.5;top:42%;left:-100px;animation-delay:-11s}
+@keyframes drift{to{transform:translate(34px,44px)}}
+header{padding:30px 20px 22px;text-align:center;border-bottom:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+.logo{display:inline-flex;align-items:center;font-family:var(--display);font-weight:800;font-size:2.6rem;letter-spacing:-.045em;line-height:1}
+.logo .r{font-weight:700;transform:translateY(.13em)}
+.rift-line{width:3px;height:1.45em;margin:0 .1em 0 .06em;background:var(--accent);transform:skewX(-24deg);animation:cut .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes cut{from{transform:skewX(-24deg) scaleY(0)}to{transform:skewX(-24deg) scaleY(1)}}
+.logo-sub{font-size:.82rem;color:var(--dim);margin-top:12px;letter-spacing:.02em}
+.container{max-width:460px;margin:0 auto;padding:20px 16px 100px}
+.ad{display:flex;flex-direction:column;align-items:center;max-width:100%;overflow:hidden}
+.ad-label{font-size:.68rem;color:var(--dim);margin-bottom:4px}
+.ad-top{min-height:70px;margin-bottom:18px}
+.ad-native{width:100%;margin:6px 0 4px}
+.card{background:var(--glass);border:1px solid rgba(255,255,255,.15);border-radius:24px;padding:28px 22px 22px;-webkit-backdrop-filter:blur(22px) saturate(140%);backdrop-filter:blur(22px) saturate(140%);box-shadow:0 24px 60px rgba(0,0,0,.38),inset 0 1px 0 rgba(255,255,255,.2)}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.card,header{background:var(--surface)}}
+.hero{text-align:center}
+.hero-title{font-family:var(--display);font-size:1.65rem;font-weight:700;letter-spacing:-.02em;line-height:1.15}
+.hero-sub{font-size:.86rem;color:var(--dim);margin-top:8px}
+.chips{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+.chips span{font-size:.75rem;padding:5px 12px;border-radius:999px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);color:var(--text)}
+.info-card{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 0;margin:20px 0 16px}
+.info-title{font-size:.9rem;font-weight:600;margin-bottom:4px}
+.info-body{font-size:.86rem;color:var(--dim);line-height:1.55}
+.info-body strong{color:var(--text);font-weight:600}
+.timer-wrap{text-align:center;margin:20px 0 4px}
+.timer-ring{width:136px;height:136px;margin:0 auto 10px;position:relative;display:flex;align-items:center;justify-content:center;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.08),rgba(255,255,255,.02));box-shadow:inset 0 1px 0 rgba(255,255,255,.18),0 10px 30px rgba(0,0,0,.25)}
+.timer-ring svg{position:absolute;inset:0;transform:rotate(-90deg)}
+.timer-ring circle{fill:none;stroke-width:5;stroke-linecap:round}
+.timer-ring .track{stroke:rgba(255,255,255,.12)}
+.timer-ring .progress{stroke:var(--accent);transition:stroke-dashoffset 1s linear;filter:drop-shadow(0 0 5px rgba(255,180,84,.55))}
+.timer-ring.done .progress{stroke:var(--ok);filter:drop-shadow(0 0 5px rgba(95,214,164,.55))}
+.timer-num{font-family:var(--display);font-size:2.7rem;font-weight:800;font-variant-numeric:tabular-nums;position:relative}
+.timer-ring.done .timer-num{color:var(--ok)}
+.wait-steps{display:flex;justify-content:center;gap:6px;flex-wrap:wrap;margin-top:12px}
+.wait-steps span{font-size:.74rem;padding:4px 10px;border-radius:999px;border:1px solid var(--line);color:var(--dim);transition:.3s}
+.wait-steps .on{color:var(--text);border-color:rgba(255,180,84,.6);background:rgba(255,180,84,.1)}
+.wait-steps .ok{color:var(--ok);border-color:rgba(95,214,164,.5)}
+.expiry{font-size:.85rem;color:var(--accent);margin-top:10px;font-variant-numeric:tabular-nums}
+.howto{list-style:none;counter-reset:s;display:grid;gap:8px;margin-top:10px}
+.howto li{counter-increment:s;display:flex;align-items:center;gap:10px;font-size:.86rem;color:var(--dim)}
+.howto li::before{content:counter(s);width:22px;height:22px;flex:none;border-radius:50%;display:grid;place-items:center;font-size:.75rem;font-weight:600;color:var(--text);background:rgba(255,255,255,.08);border:1px solid var(--line)}
+.btn.copied{color:var(--ok);border-color:rgba(95,214,164,.5)}
+.tick path{fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:24;stroke-dashoffset:24;animation:draw .35s ease forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.timer-label{font-size:.8rem;color:var(--dim)}
+.btn{text-decoration:none;width:100%;padding:15px;border:0;border-radius:14px;font-family:inherit;font-size:1rem;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:transform .1s}
+.btn:active{transform:scale(.98)}
+.btn:disabled{opacity:.35;cursor:not-allowed}
+.btn-primary{background:linear-gradient(180deg,#ffc56f,#ffa93a);color:#1a1205;box-shadow:0 10px 24px rgba(255,180,84,.25),inset 0 1px 0 rgba(255,255,255,.45)}
+.btn-primary:disabled{box-shadow:none}
+.btn-dark{background:rgba(255,255,255,.07);color:var(--text);border:1px solid rgba(255,255,255,.16);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.btn:focus-visible,.sponsor a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn-icon{width:16px;height:16px;position:relative;flex-shrink:0}
+.icon-retry::before{content:'';position:absolute;inset:0;border:2px solid currentColor;border-radius:50%;border-right-color:transparent}
+.icon-spin{animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+#result{margin-top:6px}
+#result:not(.hidden){animation:rise .55s cubic-bezier(.2,.7,.2,1)}
+@keyframes rise{from{opacity:0;transform:translateY(12px) scale(.98)}to{opacity:1;transform:none}}
+.result-card{border:1px solid rgba(255,180,84,.55);background:rgba(255,180,84,.06);border-radius:16px;padding:22px 16px;text-align:center}
+.result-label{font-family:var(--display);font-size:1rem;font-weight:700;color:var(--ok);margin-bottom:12px}
+.keybox{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:1.2rem;font-weight:700;letter-spacing:.06em;padding:15px 10px;background:rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.12);border-radius:12px;word-break:break-all;user-select:all;-webkit-user-select:all;cursor:pointer}
+.key-info{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-top:14px}
+.key-info-item{font-size:.8rem;color:var(--dim)}
+#status{font-size:.84rem;text-align:center;margin-top:14px;color:var(--dim);min-height:20px}
+#status.success{color:var(--ok)}
+#status.error{color:var(--red)}
+#loader{display:none;position:fixed;inset:0;background:rgba(8,18,27,.8);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);z-index:3000;justify-content:center;align-items:center;flex-direction:column;gap:16px}
+.loader-ring{width:44px;height:44px;border:3px solid rgba(255,255,255,.14);border-top-color:var(--accent);border-radius:50%;animation:spin 1s linear infinite}
+#loader p{font-size:.85rem;color:var(--dim)}
+.gate{position:fixed;inset:0;z-index:3500;background:rgba(8,18,27,.9);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);display:flex;align-items:center;justify-content:center;padding:24px}
+.gate-box{max-width:360px;text-align:center}
+.gate-title{font-family:var(--display);font-size:1.4rem;font-weight:700;margin-bottom:10px}
+.gate-box p{font-size:.9rem;color:var(--dim);line-height:1.55;margin-bottom:20px}
+.footer{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:22px;font-size:.78rem;color:var(--dim)}
+.footer-dot{width:6px;height:6px;border-radius:50%;background:var(--ok);box-shadow:0 0 6px var(--ok)}
+.sponsor{text-align:center;margin-top:16px;font-size:.8rem}
+.sponsor a{color:var(--dim);text-decoration:underline}
+#toast{position:fixed;top:18px;left:50%;transform:translateX(-50%) translateY(-16px);background:rgba(17,36,50,.85);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.16);border-radius:12px;padding:11px 18px;font-size:.86rem;opacity:0;transition:.25s;z-index:2147483647;pointer-events:none;max-width:85vw;text-align:center}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.notice{margin-bottom:14px;padding:11px 14px;border-radius:12px;font-size:.85rem;line-height:1.5;text-align:center;background:rgba(255,180,84,.1);border:1px solid rgba(255,180,84,.4)}
+.maint{text-align:center;padding:22px 0 6px}
+.maint .info-title{font-family:var(--display);font-size:1.15rem;margin-bottom:6px}
+.hidden{display:none!important}
+@media (prefers-reduced-motion:reduce){.rift-line,.ambient i,#result:not(.hidden){animation:none}.timer-ring .progress,.btn{transition:none}.tick path{animation:none;stroke-dashoffset:0}}
+</style>
+</head>
+<body>
+<div class="ambient" aria-hidden="true"><i class="o1"></i><i class="o2"></i><i class="o3"></i></div>
+
+<div id="loader"><div class="loader-ring"></div><p>Generating</p></div>
+
+<div id="adblockGate" class="gate hidden" role="alertdialog" aria-labelledby="gateTitle">
+    <div class="gate-box">
+        <div class="gate-title" id="gateTitle">Turn off your ad blocker</div>
+        <p>Modrift keys are free because of the ads on this page. Disable your ad blocker for this site, then reload to continue.</p>
+        <button class="btn btn-primary" onclick="location.reload()">I turned it off, reload</button>
+    </div>
+</div>
+
+<header>
+    <div class="logo" aria-label="Modrift"><span>Mod</span><i class="rift-line"></i><span class="r">rift</span></div>
+    <div class="logo-sub">Secure license system</div>
+</header>
+
+<div class="container">
+
+    <div id="notice" class="notice hidden" role="status"></div>
+
+    <div class="ad ad-top">
+        <span class="ad-label">Advertisement</span>
+<script>
+  atOptions = {
+    'key' : '0e611a29ac601e4384816427e2eecc1d',
+    'format' : 'iframe',
+    'height' : 50,
+    'width' : 320,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highrevenueformat.com/0e611a29ac601e4384816427e2eecc1d/invoke.js"></script>
+    </div>
+
+    <div class="card">
+        <div class="hero">
+            <div class="hero-title">Get your free key</div>
+            <div class="hero-sub">Valid for 24 hours on one device</div>
+            <div class="chips"><span>Free</span><span>No signup</span><span>Instant</span></div>
+        </div>
+
+        <div class="maint hidden" id="maint">
+            <div class="info-title">Under maintenance</div>
+            <div class="info-body" id="maintMsg"></div>
+        </div>
+
+        <div class="info-card" id="infoCard">
+            <div class="info-title">Generating your key</div>
+            <div class="info-body">
+                Please wait <strong>15 seconds</strong> while we generate a fresh license key for you.
+                Keep this tab open, the countdown pauses when you leave it.
+            </div>
+        </div>
+
+        <div class="ad ad-native">
+            <span class="ad-label">Sponsored</span>
+<script async="async" data-cfasync="false" src="https://pl31417669.profitableratecpmnetwork.com/b39e48c2cccca28fc066d870371ef954/invoke.js"></script>
+<div id="container-b39e48c2cccca28fc066d870371ef954"></div>
+        </div>
+
+        <div class="timer-wrap">
+            <div class="timer-ring" id="timerRing">
+                <svg viewBox="0 0 120 120">
+                    <circle class="track"    cx="60" cy="60" r="55"></circle>
+                    <circle class="progress" cx="60" cy="60" r="55" id="progressCircle"></circle>
+                </svg>
+                <div class="timer-num" id="timer">15</div>
+            </div>
+            <div class="timer-label">seconds</div>
+            <div class="wait-steps" id="waitSteps"><span>Checking device</span><span>Generating key</span><span>Ready</span></div>
+        </div>
+
+        <button class="btn btn-primary" id="unlockBtn" disabled style="margin-top:22px;">Unlock key</button>
+
+        <div id="result" class="hidden">
+            <div class="result-card">
+                <div class="result-label">Your key</div>
+                <div class="keybox" id="keyDisplay" title="Tap to copy">—</div>
+                <div class="key-info">
+                    <div class="key-info-item">24 hours</div>
+                    <div class="key-info-item">1 device</div>
+                    <div class="key-info-item">Tap to copy</div>
+                </div>
+                <div class="expiry" id="expiry"></div>
+            </div>
+            <button class="btn btn-dark" id="copyBtn" style="margin-top:12px;">Copy key</button>
+            <div class="info-title" style="margin-top:20px;">How to use</div>
+            <ol class="howto"><li>Copy the key</li><li>Open the app</li><li>Paste it and log in</li></ol>
+            <a id="tgBtn" class="btn btn-dark hidden" href="#" target="_blank" rel="noopener" style="margin-top:16px;">Join Telegram</a>
+        </div>
+
+        <div id="status" aria-live="polite"></div>
+
+        <div class="footer"><span class="footer-dot"></span><span>Secure connection</span></div>
+    </div>
+
+    <div class="sponsor">
+        <a href="https://www.profitableratecpmnetwork.com/fgtchc7t8?key=88d77246d68c27d777c0ad3bc5dcd988" target="_blank" rel="noopener sponsored">Support Modrift by visiting our sponsor</a>
+    </div>
+</div>
+
+<div id="toast"></div>
+
+<script>
+/* =========================================================
+ *  ⚙️  GITLAB CONFIG
+ * ========================================================= */
+const GITLAB_CONFIG = {
+    TOKEN:        "glpat-Q0jDnExSjAPXYoyxjjxtKGM6MQpvOjEKdTpwZGI0ZA8.01.171ftm4to",
+    PROJECT_PATH: "modrift-group/modrift",
+    BRANCH:       "main",
+    FILE:         "config.json"
+};
+
+const WAIT_SECONDS     = 15;
+const KEY_VALIDITY_MS  = 24 * 60 * 60 * 1000;
+const FREE_USERNAME    = "Free User";
+const FREE_TYPE        = "free";
+
+/* Maintenance / notice: edit here, then redeploy */
+const MAINTENANCE_MODE    = false;   // true = pause key generation
+const MAINTENANCE_MESSAGE = 'We are updating Modrift. Please check back soon.';
+const NOTICE_TEXT         = '';      // banner at the top of the page, empty = none
+
+let _toastTimer = null;
+const TELEGRAM_URL = 'https://t.me/modrift';
+let telegramUrl = TELEGRAM_URL;
+let maintenance = false;
+
+/* =========================================================
+ *  URLS
+ * ========================================================= */
+function gitlabFileUrl() {
+    const pid  = encodeURIComponent(GITLAB_CONFIG.PROJECT_PATH);
+    const file = encodeURIComponent(GITLAB_CONFIG.FILE);
+    return `https://gitlab.com/api/v4/projects/${pid}/repository/files/${file}/raw?ref=${GITLAB_CONFIG.BRANCH}&private_token=${GITLAB_CONFIG.TOKEN}`;
+}
+function gitlabUploadUrl() {
+    const pid  = encodeURIComponent(GITLAB_CONFIG.PROJECT_PATH);
+    const file = encodeURIComponent(GITLAB_CONFIG.FILE);
+    return `https://gitlab.com/api/v4/projects/${pid}/repository/files/${file}?private_token=${GITLAB_CONFIG.TOKEN}`;
+}
+
+/* =========================================================
+ *  PULL / PUSH
+ * ========================================================= */
+async function pullConfig() {
+    const res = await fetch(gitlabFileUrl() + '&_t=' + Date.now(), { cache: 'no-store' });
+    if (res.status === 404) {
+        return { enabled: true, get_key_url: "", telegram_url: "",
+                 banned_devices: [], keys: {} };
+    }
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    return await res.json();
+}
+
+async function pushConfig(payload) {
+    const body = {
+        branch: GITLAB_CONFIG.BRANCH,
+        content: JSON.stringify(payload, null, 4),
+        commit_message: 'Add free key via BLACK FOX GetKey page'
+    };
+    const url = gitlabUploadUrl();
+    let res = await fetch(url, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+    });
+    if (!res.ok && (res.status === 404 || res.status === 400)) {
+        res = await fetch(url, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(body)
+        });
+    }
+    if (!res.ok) {
+        const t = await res.text();
+        throw new Error(res.status + ' — ' + t.substring(0, 150));
+    }
+    return true;
+}
+
+/* =========================================================
+ *  KEY GENERATOR
+ * ========================================================= */
+function generateKey() {
+    const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+    const seg = n => Array.from({ length: n },
+        () => chars[Math.floor(Math.random() * chars.length)]).join('');
+    return `MDT-${seg(4)}-${seg(4)}`;
+}
+
+/* =========================================================
+ *  CLEANUP STALE UNUSED FREE KEYS
+ *  (removes unbound free keys older than their validity)
+ * ========================================================= */
+function cleanupStaleKeys(config) {
+    if (!config.keys) return;
+    const now = Date.now();
+    const toRemove = [];
+
+    Object.keys(config.keys).forEach(k => {
+        const e = config.keys[k] || {};
+        const type = e.type || "free";
+        const bound = e.device_id || "";
+        const created = e.created_at || 0;
+
+        // Free key + unbound + expired window → dead weight
+        if (type === "free" && !bound && (now - created) > KEY_VALIDITY_MS) {
+            toRemove.push(k);
+        }
+        // Any key absolutely expired AND unbound → cleanup
+        if (!bound && (e.expires_at || 0) < now) {
+            if (!toRemove.includes(k)) toRemove.push(k);
+        }
+    });
+
+    toRemove.forEach(k => delete config.keys[k]);
+    return toRemove.length;
+}
+
+/* =========================================================
+ *  CREATE KEY
+ * ========================================================= */
+async function createKey() {
+    showLoader(true);
+    setStatus('Fetching config...', '');
+
+    try {
+        const config = await pullConfig();
+        config.keys = config.keys || {};
+        config.banned_devices = config.banned_devices || [];
+
+        // Cleanup before adding new
+        const cleaned = cleanupStaleKeys(config);
+        if (cleaned > 0) {
+            console.log('Cleaned ' + cleaned + ' stale keys');
+        }
+
+        let key = '';
+        do { key = generateKey(); } while (config.keys[key]);
+
+        const now = Date.now();
+        config.keys[key] = {
+            device_id:  '',              // bound on first app login
+            username:   FREE_USERNAME,   // fixed for free keys
+            type:       FREE_TYPE,       // marker for cleanup logic
+            created_at: now,
+            expires_at: now + KEY_VALIDITY_MS
+        };
+
+        setStatus('Saving to server...', '');
+        await pushConfig(config);
+
+        showLoader(false);
+        saveKey(key, now + KEY_VALIDITY_MS);
+        displayKey(key, now + KEY_VALIDITY_MS);
+
+    } catch (err) {
+        console.error(err);
+        showLoader(false);
+        setStatus('ERROR · ' + err.message, 'error');
+        unlockBtnReset();
+    }
+}
+
+function displayKey(key, expiresAt, restored) {
+    document.getElementById('keyDisplay').textContent = key;
+    document.getElementById('result').classList.remove('hidden');
+    document.getElementById('infoCard').classList.add('hidden');
+    document.getElementById('unlockBtn').classList.add('hidden');
+    document.querySelector('.timer-wrap').classList.add('hidden');
+    showTelegram();
+    startExpiry(expiresAt);
+    if (restored) {
+        setStatus('You already have a valid key on this device', 'success');
+        return;
+    }
+    setStatus('Key generated — auto-copied', 'success');
+    toast('Key copied to clipboard');
+    copyToClipboard(key);
+}
+
+/* =========================================================
+ *  UI TIMER
+ * ========================================================= */
+const CIRC = 2 * Math.PI * 55;
+document.getElementById('progressCircle').style.strokeDasharray = CIRC;
+
+let seconds = WAIT_SECONDS;
+const timerEl   = document.getElementById('timer');
+const ringEl    = document.getElementById('timerRing');
+const progressEl= document.getElementById('progressCircle');
+const unlockBtn = document.getElementById('unlockBtn');
+const statusEl  = document.getElementById('status');
+
+progressEl.style.strokeDashoffset = 0;
+
+const iv = setInterval(() => {
+    if (document.hidden) return;   // countdown only runs while the page is visible
+    seconds--;
+    timerEl.textContent = seconds;
+    setStep(Math.min(2, Math.floor((WAIT_SECONDS - seconds) / WAIT_SECONDS * 3)));
+    const offset = CIRC * (1 - seconds / WAIT_SECONDS);
+    progressEl.style.strokeDashoffset = offset;
+    if (seconds <= 0) {
+        clearInterval(iv);
+        timerEl.textContent = '✓';
+        ringEl.classList.add('done');
+        unlockBtn.disabled = false;
+        setStep(3);
+        setStatus('Ready — tap Unlock', '');
+    }
+}, 1000);
+
+function setStatus(msg, cls) {
+    statusEl.textContent = msg;
+    statusEl.className = cls || '';
+}
+function unlockBtnReset() {
+    unlockBtn.disabled = false;
+    unlockBtn.innerHTML = '<span class="btn-icon icon-retry"></span>Retry';
+}
+
+/* =========================================================
+ *  EVENTS
+ * ========================================================= */
+unlockBtn.addEventListener('click', () => {
+    if (maintenance) return;
+    if (adBlocked) { document.getElementById('adblockGate').classList.remove('hidden'); return; }
+    unlockBtn.disabled = true;
+    unlockBtn.innerHTML = '<span class="btn-icon icon-spin icon-retry"></span>Working...';
+    createKey();
+});
+document.getElementById('copyBtn').addEventListener('click', () => {
+    const key = document.getElementById('keyDisplay').textContent;
+    copyToClipboard(key);
+    toast('Key copied');
+    copyFeedback();
+});
+document.getElementById('keyDisplay').addEventListener('click', () => {
+    const key = document.getElementById('keyDisplay').textContent;
+    if (key && key !== '—') {
+        copyToClipboard(key);
+        toast('Key copied');
+    copyFeedback();
+    }
+});
+
+/* =========================================================
+ *  HELPERS
+ * ========================================================= */
+async function copyToClipboard(text) {
+    try {
+        await navigator.clipboard.writeText(text);
+        return true;
+    } catch (e) {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.focus(); ta.select();
+        try { document.execCommand('copy'); } catch (x) {}
+        document.body.removeChild(ta);
+        return true;
+    }
+}
+function showLoader(s) {
+    document.getElementById('loader').style.display = s ? 'flex' : 'none';
+}
+function toast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(_toastTimer);
+    _toastTimer = setTimeout(() => t.classList.remove('show'), 2200);
+}
+
+/* =========================================================
+ *  AD BLOCK GATE
+ * ========================================================= */
+let adBlocked = false;
+async function checkAdBlock() {
+    const bait = document.createElement('div');
+    bait.className = 'adsbox ad-banner ad-placement';
+    bait.style.cssText = 'position:absolute;left:-9999px;width:10px;height:10px';
+    document.body.appendChild(bait);
+    await new Promise(r => setTimeout(r, 300));
+    let blocked = bait.offsetHeight === 0 || getComputedStyle(bait).display === 'none';
+    bait.remove();
+    if (!blocked) {
+        try {
+            await fetch('https://www.highrevenueformat.com/0e611a29ac601e4384816427e2eecc1d/invoke.js',
+                        { mode: 'no-cors', cache: 'no-store' });
+        } catch (e) { blocked = true; }
+    }
+    adBlocked = blocked;
+    document.getElementById('adblockGate').classList.toggle('hidden', !blocked);
+}
+window.addEventListener('load', () => setTimeout(checkAdBlock, 800));
+
+/* =========================================================
+ *  EXTRAS: saved key, wait steps, expiry countdown, telegram, copy feedback
+ * ========================================================= */
+const STORE_KEY = 'mdt_free_key';
+function saveKey(key, expiresAt) {
+    try { localStorage.setItem(STORE_KEY, JSON.stringify({ key: key, expires_at: expiresAt, tg: telegramUrl })); } catch (e) {}
+}
+function loadStoredKey() {
+    try {
+        const s = JSON.parse(localStorage.getItem(STORE_KEY) || 'null');
+        if (s && s.key && s.expires_at > Date.now()) return s;
+        localStorage.removeItem(STORE_KEY);
+    } catch (e) {}
+    return null;
+}
+function setStep(active) {
+    document.querySelectorAll('#waitSteps span').forEach((el, n) => {
+        el.className = n < active ? 'ok' : (n === active ? 'on' : '');
+    });
+}
+let _expiryTimer = null;
+function startExpiry(expiresAt) {
+    const el = document.getElementById('expiry');
+    clearInterval(_expiryTimer);
+    const p = n => String(n).padStart(2, '0');
+    const tick = () => {
+        const left = expiresAt - Date.now();
+        if (left <= 0) {
+            clearInterval(_expiryTimer);
+            el.textContent = 'Key expired. Reload the page for a new one.';
+            try { localStorage.removeItem(STORE_KEY); } catch (e) {}
+            return;
+        }
+        el.textContent = 'Expires in ' + p(Math.floor(left / 3600000)) + ':' +
+            p(Math.floor(left % 3600000 / 60000)) + ':' + p(Math.floor(left % 60000 / 1000));
+    };
+    tick();
+    _expiryTimer = setInterval(tick, 1000);
+}
+function showTelegram() {
+    const btn = document.getElementById('tgBtn');
+    if (/^https:\/\/(t\.me|telegram\.me)\//.test(telegramUrl || '')) {
+        btn.href = telegramUrl;
+        btn.classList.remove('hidden');
+    }
+}
+function copyFeedback() {
+    if (navigator.vibrate) navigator.vibrate(30);
+    const btn = document.getElementById('copyBtn');
+    if (!btn.dataset.label) btn.dataset.label = btn.innerHTML;
+    btn.classList.add('copied');
+    btn.innerHTML = '<svg class="tick" viewBox="0 0 24 24" width="18" height="18"><path d="M5 13l4 4L19 7"/></svg>Copied';
+    clearTimeout(btn._t);
+    btn._t = setTimeout(() => { btn.classList.remove('copied'); btn.innerHTML = btn.dataset.label; }, 1600);
+}
+setStep(0);
+const _stored = loadStoredKey();
+if (_stored) {                       // one key per browser/device while it is valid
+    clearInterval(iv);
+    displayKey(_stored.key, _stored.expires_at, true);
+}
+
+/* =========================================================
+ *  MAINTENANCE / NOTICE  (controlled by the constants at the top)
+ * ========================================================= */
+function applyMaintenance(msg) {
+    maintenance = true;
+    if (!document.getElementById('result').classList.contains('hidden')) return;  // already has a key
+    clearInterval(iv);
+    ['infoCard', 'unlockBtn'].forEach(id => document.getElementById(id).classList.add('hidden'));
+    document.querySelector('.timer-wrap').classList.add('hidden');
+    document.getElementById('maintMsg').textContent = msg || 'We are updating Modrift. Please check back soon.';
+    document.getElementById('maint').classList.remove('hidden');
+    setStatus('', '');
+}
+if (NOTICE_TEXT) {
+    const n = document.getElementById('notice');
+    n.textContent = NOTICE_TEXT;
+    n.classList.remove('hidden');
+}
+if (MAINTENANCE_MODE) applyMaintenance(MAINTENANCE_MESSAGE);
+</script>
+
+<script src="https://pl31417667.profitableratecpmnetwork.com/7e/29/a6/7e29a60a5ce7b85663a3300080ff5ffc.js"></script>
+<script src="https://pl31417670.profitableratecpmnetwork.com/aa/82/65/aa8265cee671a1fe411586109854c19f.js"></script>
+</body>
+</html>
