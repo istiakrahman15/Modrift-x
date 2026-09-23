@@ -3,7 +3,7 @@
     {
       "source": "/(.*)",
       "destination": "https://modrift-new.vercel.app/$1",
-      "permanent": true
+      "permanent": false
     }
   ]
 }
