@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://modrift-new.vercel.app",
+      "destination": "https://modrift-new.vercel.app/$1",
       "permanent": true
     }
   ]
